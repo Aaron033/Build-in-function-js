@@ -59,7 +59,10 @@ const eightiesCompanies = companies.filter(company => (company.start >= 1980 && 
 //Get companies that lasted 10 years or more 
 const lastedTenYears = companies.filter(company => (company.end - company.start >= 10))
 
-console.log(lastedTenYears);
+//Create array of company names 
+const companyNames = companies.map(e => e.name);
+
+console.log(companyNames);
 
 
 //document.getElementById("demo").innerHTML = fruits; 
