@@ -64,6 +64,7 @@ const companyNames = companies.map(e => e.name);
 
 const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`);
 
-
+const agesSquare = ages.map(age => Math.sqrt(age));
+console.log(agesSquare);
 //document.getElementById("demo").innerHTML = fruits; 
 
