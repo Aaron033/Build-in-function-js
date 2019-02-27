@@ -62,7 +62,7 @@ const lastedTenYears = companies.filter(company => (company.end - company.start 
 //Create array of company names 
 const companyNames = companies.map(e => e.name);
 
-console.log(companyNames);
+const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`);
 
 
 //document.getElementById("demo").innerHTML = fruits; 
